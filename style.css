@@ -6,6 +6,10 @@
     font-size: 24px;
 }
 
+blockquote {
+    border: none;
+}
+
 .review-guibard {
     font-size: 20px;
 } 

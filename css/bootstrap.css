@@ -1436,7 +1436,7 @@ img {
 .thumbnail a>img,
 .thumbnail>img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 
@@ -4286,7 +4286,6 @@ tbody.collapse.in {
     margin-left: 2px;
     vertical-align: middle;
     border-top: 4px dashed;
-    border-top: 4px solid\9;
     border-right: 4px solid transparent;
     border-left: 4px solid transparent
 }
@@ -4373,7 +4372,6 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
 }
 
 .open>.dropdown-menu {
@@ -5737,19 +5735,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
     border-color: #ddd
 }
 
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover,
-.pagination>.active>span,
-.pagination>.active>span:focus,
-.pagination>.active>span:hover {
-    z-index: 2;
-    color: #fff;
-    cursor: default;
-    background-color: #337ab7;
-    border-color: #337ab7
-}
-
 .pagination>.disabled>a,
 .pagination>.disabled>a:focus,
 .pagination>.disabled>a:hover,
@@ -6415,12 +6400,6 @@ button.list-group-item {
     color: inherit
 }
 
-.list-group-item.active .list-group-item-text,
-.list-group-item.active:focus .list-group-item-text,
-.list-group-item.active:hover .list-group-item-text {
-    color: #c7ddef
-}
-
 .list-group-item-success {
     color: #3c763d;
     background-color: #dff0d8
@@ -6452,7 +6431,6 @@ button.list-group-item-success.active:focus,
 button.list-group-item-success.active:hover {
     color: #fff;
     background-color: #3c763d;
-    border-color: #3c763d
 }
 
 .list-group-item-info {
@@ -6486,7 +6464,6 @@ button.list-group-item-info.active:focus,
 button.list-group-item-info.active:hover {
     color: #fff;
     background-color: #31708f;
-    border-color: #31708f
 }
 
 .list-group-item-warning {
@@ -7806,9 +7783,6 @@ button.close {
     float: left;
 }
 
-.hide {
-    display: none;
-}
 
 .show {
     display: block;
@@ -7818,17 +7792,6 @@ button.close {
     visibility: hidden
 }
 
-.text-hide {
-    font: 0/0 a;
-    color: transparent;
-    text-shadow: none;
-    background-color: transparent;
-    border: 0
-}
-
-.hidden {
-    display: none;
-}
 
 .affix {
     position: fixed

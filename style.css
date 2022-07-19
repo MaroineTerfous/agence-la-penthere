@@ -107,11 +107,11 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+/* 
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -327,6 +327,7 @@ a:hover {
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    height: 40px;
 }
 
 .nav-center .navbar-brand img {
@@ -756,7 +757,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF;
+    color: white;
+}
+
+.black {
+    color: black;
 }
 
 .portfolio-thumb {

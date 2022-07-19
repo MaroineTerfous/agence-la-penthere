@@ -102,10 +102,6 @@ sub {
     bottom: -.25em
 }
 
-img {
-    border: 0
-}
-
 svg:not(:root) {
     overflow: hidden
 }
@@ -1910,7 +1906,7 @@ blockquote.pull-right footer:after,
 blockquote.pull-right small:after {
     content: '\00A0 \2014'
 }
-
+/* 
 address {
     margin-bottom: 20px;
     font-style: normal;
@@ -1922,9 +1918,9 @@ kbd,
 pre,
 samp {
     font-family: Menlo, Monaco, Consolas, "Courier New", monospace
-}
+} */
 
-code {
+/* code {
     padding: 2px 4px;
     font-size: 90%;
     color: #c7254e;
@@ -1948,9 +1944,9 @@ kbd kbd {
     font-weight: 700;
     -webkit-box-shadow: none;
     box-shadow: none
-}
+} */
 
-pre {
+/* pre {
     display: block;
     padding: 9.5px;
     margin: 0 0 10px;
@@ -1971,7 +1967,7 @@ pre code {
     white-space: pre-wrap;
     background-color: transparent;
     border-radius: 0
-}
+} */
 
 .pre-scrollable {
     max-height: 340px;
@@ -3066,7 +3062,7 @@ table th[class*=col-] {
         border-bottom: 0
     }
 }
-
+/* 
 fieldset {
     min-width: 0;
     padding: 0;
@@ -3091,7 +3087,7 @@ label {
     max-width: 100%;
     margin-bottom: 5px;
     font-weight: 700
-}
+} */
 
 input[type=search] {
     -webkit-box-sizing: border-box;
@@ -4875,10 +4871,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin: 9px 0;
     overflow: hidden;
     background-color: #e5e5e5
-}
-
-.nav>li>a>img {
-    max-width: none
 }
 
 .nav-tabs {
@@ -7774,6 +7766,7 @@ button.close {
     margin-right: auto;
     margin-left: auto;
     height: 80px;
+    border-radius: 50%;
 }
 
 .pull-right {

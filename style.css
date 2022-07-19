@@ -14,6 +14,11 @@ blockquote {
     font-size: 20px;
 } 
 
+#icon {
+    font-size: 24px;
+    padding: 5px;
+}
+
 /* Mes rajout END */
 
 body {
@@ -796,17 +801,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #364577;
+    opacity: 0.9;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF;
+    background: #364577;
+    opacity: 0.9;
+    color: white;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956;
-    color: #FFFFFF;
+    opacity: 1;
+    transform: scale(1.1);
+    color: white;
 }
 
 .ltc-white {

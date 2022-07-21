@@ -1,5 +1,10 @@
 /* Mes rajouts */
 
+ul li a:hover { 
+    color: #3C4977;
+    border-bottom: 3px solid #3C4977
+}
+
 .darkblue {
     color: #364577;
     font-weight: bold;
@@ -221,10 +226,10 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
-.d-bloc .panel button:hover,
+/* .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
-}
+} */
 
 .l-bloc .icon-round,
 .l-bloc .icon-square,
@@ -672,7 +677,6 @@ h5,
 h6,
 p,
 label,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -699,7 +703,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -708,7 +712,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {

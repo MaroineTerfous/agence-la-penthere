@@ -1,5 +1,10 @@
 /* Mes rajouts */
 
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+
 ul li a:hover { 
     color: #3C4977;
     border-bottom: 3px solid #3C4977
@@ -468,6 +473,7 @@ nav .caret {
     margin-top: 10px;
     margin-bottom: 20px;
     color: #364577;
+    font-weight: 700;
 }
 
 .mg-lg {
